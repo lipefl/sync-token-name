@@ -1,16 +1,22 @@
 {
-    "name": "sync-token-name",
+    "id": "sync-token-name",
     "title": "Sync Token Names",
-    "description": "Simple module to syncronize actor names with token names. Works automatically, disable it if you dont want to sync.",
-    "author": "Felipe Figueiredo",
-    "version": "1.0.3",
-    "minimumCoreVersion": "0.6.6",
-    "compatibleCoreVersion": "9",
-    "url":"https://github.com/lipefl/sync-token-name",
-    "manifest":"https://raw.githubusercontent.com/lipefl/sync-token-name/main/module.json",
-    "download":"https://github.com/lipefl/sync-token-name/archive/main.zip",
+    "description": "Simple module to synchronize actor names with token names. Works automatically, disable it if you dont want to sync.",
+    "authors": [
+        {
+            "name": "Felipe Figueiredo",
+            "flags": {}
+        }
+    ],
+    "version": "1.0.4",
+    "compatibility": {
+        "minimum": "0.6.6",
+        "verified": "10"
+    },
+    "url": "https://github.com/lipefl/sync-token-name",
+    "manifest": "https://raw.githubusercontent.com/lipefl/sync-token-name/main/module.json",
+    "download": "https://github.com/lipefl/sync-token-name/archive/main.zip",
     "scripts": [
         "scripts/start.js"
     ]
-
   }
